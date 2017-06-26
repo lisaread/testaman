@@ -20,6 +20,5 @@ phases:
       - mv /var/task/rvm .
       - cp codebuild/rvmrc .rvmrc
       - echo Build completed on `date`
-artifacts:
-  files:
+
  

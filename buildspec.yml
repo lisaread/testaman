@@ -22,6 +22,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - .rvmrc
-    - rvm/**/*
-- lambda_function.py
+ 

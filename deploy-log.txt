@@ -1,0 +1,553 @@
+####### 2017-06-24 06:08:23 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 06:09:04 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 06:55:40 #######
+$ /var/www/html/abc.sh
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 06:56:11 #######
+$ /var/www/html/abc.sh
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 06:59:37 #######
+$ /var/www/html/abc.sh
+error: Unable to append to .git/logs/refs/remotes/origin/testvalibranch: Permission denied
+From https://github.com/amanmishraopenxcell/testaman
+ ! 1cf0443..4869e2e  testvalibranch -> origin/testvalibranch  (unable to update local ref)
+
+####### 2017-06-24 06:59:59 #######
+$ /var/www/html/abc.sh
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+
+####### 2017-06-24 07:31:37 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 07:32:42 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 07:47:46 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 07:48:37 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 07:50:17 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 07:50:35 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 07:58:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/amanmishraopenxcell/testaman
+   8013790..6aa0564  master     -> origin/master
+error: Unable to append to .git/logs/refs/remotes/origin/testvalibranch: Permission denied
+ ! 1cf0443..068d4e7  testvalibranch -> origin/testvalibranch  (unable to update local ref)
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 8 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 07:58:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/amanmishraopenxcell/testaman
+   6aa0564..7403d36  master     -> origin/master
+error: Unable to append to .git/logs/refs/remotes/origin/testvalibranch: Permission denied
+ ! 1cf0443..068d4e7  testvalibranch -> origin/testvalibranch  (unable to update local ref)
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 10 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 09:15:00 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/amanmishraopenxcell/testaman
+   1cf0443..7ebd59d  testvalibranch -> origin/testvalibranch
+Updating 8013790..7403d36
+Fast-forward
+ 1229.txt | 1 +
+ 1301.txt | 1 +
+ 1317.txt | 1 +
+ 1319.txt | 1 +
+ 1328.txt | 1 +
+ 5 files changed, 5 insertions(+)
+ create mode 100644 1229.txt
+ create mode 100644 1301.txt
+ create mode 100644 1317.txt
+ create mode 100644 1319.txt
+ create mode 100644 1328.txt
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   1137.txt
+	modified:   1157.txt
+	modified:   1201.txt
+	modified:   1206.txt
+	modified:   1224.txt
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2017-06-24 09:16:50 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/amanmishraopenxcell/testaman
+   7403d36..a202aab  master     -> origin/master
+Updating 7403d36..a202aab
+Fast-forward
+ 1444.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 1444.txt
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   1137.txt
+	modified:   1157.txt
+	modified:   1201.txt
+	modified:   1206.txt
+	modified:   1224.txt
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	abc.sh
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+

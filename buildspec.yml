@@ -24,5 +24,4 @@ artifacts:
   files:
     - .rvmrc
     - rvm/**/*
-    - roadwork
 - lambda_function.py

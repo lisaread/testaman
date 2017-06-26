@@ -45,14 +45,14 @@ if (!$allowed) {
 flush();
 // Actually run the update
 $commands = array(
-	'echo $PWD',
+'echo $PWD',
 	'whoami',
 	'git pull',
 	'git status',
 	'git submodule sync',
 	'git submodule update',
 	'git submodule status',
-    'test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"',
+	    'test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"',
 );
 $output = "\n";
 $log = "####### ".date('Y-m-d H:i:s'). " #######\n";

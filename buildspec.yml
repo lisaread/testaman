@@ -3,4 +3,4 @@ version: 0.2
 phases:
   install:
     commands:
-      - sudo apt-get update update
+      - sudo apt-get update 

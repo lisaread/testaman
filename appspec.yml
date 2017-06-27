@@ -5,4 +5,5 @@ files:
 destination: /tmp
 hooks:
   ApplicationStart:
-    - location: /restartapp.sh timeout: 3600
+    - location: /restartapp.sh 
+      timeout: 3600

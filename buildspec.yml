@@ -5,8 +5,8 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
-files:
-- appspec.yml
-- abc.sh
-- deploy-log.txt
+  files:
+            - appspec.yml
+            - abc.sh
+            - deploy-log.txt
 discard-paths: yes

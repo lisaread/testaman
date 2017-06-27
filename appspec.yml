@@ -3,7 +3,9 @@ os: linux
 files:
   - source: /abc.sh
     destination: /tmp
+  - source: /restart.sh
+    destination: /tmp
 hooks:
   ApplicationStart:
-    - location: restartapp.sh
+    - location: /tmp/restartapp.sh
       timeout: 3600

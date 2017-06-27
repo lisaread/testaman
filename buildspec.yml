@@ -7,9 +7,6 @@ phases:
 artifacts:
 files:
 - appspec.yml
-- cron.yaml
-- index.php
-- logo_aws_reduced.gif
-- scheduled.php
-- styles.css 
+- abc.sh
+- deploy-log.txt
 discard-paths: yes

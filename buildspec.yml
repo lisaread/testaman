@@ -12,3 +12,4 @@ files:
 - logo_aws_reduced.gif
 - scheduled.php
 - styles.css 
+discard-paths: yes

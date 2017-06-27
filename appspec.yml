@@ -1,5 +1,10 @@
 version: 0.0
-os: linux 
+os: linux
 files:
-  - source: source
-    destination: /var/www/
+- source: /
+destination: /tmp
+
+hooks:
+ApplicationStart:
+- location: Scripts/restartapp.sh
+timeout: 3600

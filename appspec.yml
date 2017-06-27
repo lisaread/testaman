@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 files:
-- source: /var/www/abc.sh
-destination: /tmp
+  - source: /var/www/abc.sh
+    destination: /tmp
 hooks:
-ApplicationStart:
-  - location: Scripts/restartapp.sh 
-    timeout: 3600
+  ApplicationStart:
+    - location: Scripts/restartapp.sh
+      timeout: 3600

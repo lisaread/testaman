@@ -1,6 +1,14 @@
 version: 0.2
 
 phases:
-  install:
+  post_build:
     commands:
-      - sudo apt-get update 
+      - echo Build completed on `date`
+artifacts:
+files:
+- appspec.yml
+- cron.yaml
+- index.php
+- logo_aws_reduced.gif
+- scheduled.php
+- styles.css 
